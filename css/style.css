@@ -1,0 +1,803 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Montserrat:wght@300;800&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+/*BODY*/
+.body{
+    font-family: 'Bad Script', cursive;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+    
+/*-----HEADER-----*/
+header{
+    
+    height: 180px;
+    background-color:#dcbb9ab9 ;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    border: solid rgba(139, 69, 19, 0.541);
+    
+}
+
+/*--logo header--*/
+header img{
+    width: 180px;
+    height: 180px;
+    box-sizing: border-box;
+}
+/*--lista nav--*/
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 900;
+    list-style: none;
+    border: solid 1px grey;
+    padding: 5px;
+    margin: 10px;
+    background-color: #ad634cbe;
+    display: inline-block;
+    box-shadow:box-shadow: 11px 12px 28px -3px rgba(0,0,0,0.51);
+-webkit-box-shadow: 11px 12px 28px -3px rgba(0,0,0,0.51);
+-moz-box-shadow: 11px 12px 28px -3px rgba(0,0,0,0.51); ;
+}
+
+
+header nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+
+}
+header nav ul li{
+    display: inline-block;
+    margin: 20px;
+}
+
+  
+
+/*-----MAIN INDEX-----*/
+
+/*--propiedades generales--*/
+main{
+    width: 100%;
+    height: 100%
+    
+    background-color: #cfe7da;
+    font-family: 'Montserrat', sans-serif;
+    border-top: solid rgba(139, 69, 19, 0.541);
+    margin-top: 1.5px;
+
+}
+
+/*-----baner principal-----*/
+.hero {
+    width: 100%;
+    height: 100%;
+
+    background-image: url("../img/pngtodo.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    
+
+}
+
+.hero__nombre {
+    font-family: 'Bad Script', cursive;
+    color: black;
+    text-align: center;
+    font-size: 120px;
+    
+}
+
+
+.hero__salon {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 100;
+    
+}
+
+/*-----MAIN index servicio-----*/
+.propuesta{
+    width: 100%;
+ 
+    display: flex;
+    justify-content: cover;
+    justify-items: left;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    border-top: 2px solid #3c626b80;
+
+
+    /*--GRID--*/
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
+
+}
+
+ .propuesta__servicios__general{
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    text-align: center;
+    border: 1px solid gray;
+    margin: 50px;
+    padding: 30px;
+    box-shadow: 11px 12px 28px -3px rgba(0,0,0,0.51);
+    -webkit-box-shadow: 11px 12px 28px -3px rgba(0,0,0,0.51);
+    -moz-box-shadow: 11px 12px 28px -3px rgba(0,0,0,0.51);
+    width: 30%;
+    height: 20vh;
+
+
+ }
+
+ .propuesta__servicios__lista{
+
+    list-style: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+ }
+.propuesta div img{
+    width: 500px;
+    height: 350px;
+
+    background-size: cover;
+    border: 1px solid gray;
+    padding: 30px;
+    margin: 50px;
+    box-shadow: 11px 12px 28px -3px rgba(0,0,0,0.51);
+    -webkit-box-shadow: 11px 12px 28px -3px rgba(0,0,0,0.51);
+    -moz-box-shadow: 11px 12px 28px -3px rgba(0,0,0,0.51);
+    align-content: center;
+
+
+
+}
+
+/*-----MAIN index productos-----*/
+
+.propuesta__productos__general{
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    text-align: center;
+    border: 1px solid gray;
+    margin: 50px;
+    padding: 30px;
+    box-shadow: 11px 12px 28px -3px rgba(0,0,0,0.51);
+    -webkit-box-shadow: 11px 12px 28px -3px rgba(0,0,0,0.51);
+    -moz-box-shadow: 11px 12px 28px -3px rgba(0,0,0,0.51);
+    width: 30%;
+    height: 20vh;
+
+
+}
+.propuesta__producto__lista{
+    list-style: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+
+/*-----MAIN index lugar-----*/
+.lugar {
+    width: 100%;
+    height: 80vh;
+    text-align: center;
+    border-top: 2px solid #3c626b80;
+
+}
+.lugar img{
+    width: 700px;
+    height: 350px;
+    margin-top: 20px;
+    border: 1px black solid;
+    box-shadow: 11px 12px 28px -3px rgba(0,0,0,0.51);
+    -webkit-box-shadow: 11px 12px 28px -3px rgba(0,0,0,0.51);
+    -moz-box-shadow: 11px 12px 28px -3px rgba(0,0,0,0.51);
+
+
+
+}
+.imagenlugar{
+    margin: 20px;
+    border-color: #dcbb9a;
+    background-position: center;
+}
+
+.lugar p{
+    font-size: 20px;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+/*-----MAIN pagina:NOSOTROS-----*/
+
+/*--aplico propiedades generales--*/
+
+.nosotros {
+    text-align: center;
+    margin-top: 5px;
+    
+}
+
+.nosotros__titulo{
+    font-size: 50px;
+}
+.nosotros__texto{
+text-align: center;
+font-style: italic;
+}
+
+/*--galeria de fotos--*/
+
+/*--GRID--*/
+.imagen__lugar{
+    width: 100%;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 350px;
+    gap: 20px;
+
+}
+
+.imagen__lugar div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-shadow: 11px 12px 28px -3px rgba(0,0,0,0.51);
+    -webkit-box-shadow: 11px 12px 28px -3px rgba(0,0,0,0.51);
+    -moz-box-shadow: 11px 12px 28px -3px rgba(0,0,0,0.51);
+    align-content: center;
+    
+}
+
+.imagen__1{
+    grid-column: span 2;
+}
+
+.imagen__4{
+    grid-column: 2/4;
+}
+
+.imagen__5{
+    grid-column: span 2;
+}
+
+
+/*--formulario comentario--*/
+.experiencia__pregunta{
+    margin-top: 50px;
+    margin-left: 15px;
+}
+.experiencia__tabla{
+    margin: 25px;
+    border: solid 1px grey;
+    width: 300px;
+    padding: 15px;
+    font-weight: 600;
+    background-color: #3c626bc0;
+
+}
+
+/*-----MAIN pagina:SERVICIOS-----*/
+
+/*--aplico propiedades generales--*/
+.servicio {
+    text-align: center;
+    
+}
+
+.servicio__titulo{
+    font-size: 50px;
+}
+.servicio__texto{
+    text-align: center;
+    font-style: italic;
+}
+
+.trabajo {
+    width: 100%;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-auto-rows: 500px;
+    gap: 20px;
+
+    font-size: 15px;
+    background-size: cover;
+    
+
+    /*grillas*/
+    
+}
+    
+
+.trabajo div{
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+    box-shadow: 11px 12px 28px -3px rgba(0,0,0,0.51);
+    -webkit-box-shadow: 11px 12px 28px -3px rgba(0,0,0,0.51);
+    -moz-box-shadow: 11px 12px 28px -3px rgba(0,0,0,0.51);
+    align-content: center;
+
+    background-color: #3c626bc0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 2px solid grey;
+    text-align: center;
+    
+}
+
+
+
+.trabajo div div img{
+    width: 80%;
+    height: 300px;
+    align-content: center;
+}
+
+.trabajo__corte{
+    grid-column: 3/4;
+}
+
+.trabajo__peinado{
+    grid-column: 2/3;
+}
+
+.trabajo__coloracion{
+    grid-column: 1/2;
+}
+
+.trabajo__tratamientos{
+    grid-column: 3/4;
+}
+
+
+/*-----MAIN pagina:PRODUCTOS-----*/
+
+/*--aplico propiedades generales--*/
+
+.productos {
+    text-align: center;
+    height: 400px;
+    margin-top: 30px;
+
+   }
+
+
+   .productos__titulo{
+    font-size: 50px;
+    margin-top: 10px;
+    padding: 0;
+   }
+   .productos__texto{
+   text-align: center;
+   font-style: italic;
+   }
+
+   .venta {
+    font-size: 15px;
+    background-size: cover;
+    margin-top: 0px;
+    margin-bottom: 30pxpx;
+    margin-left: 20px;
+    border-width: 2px;
+    /*grid*/
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 350px;
+    gap: 20px;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+.venta div ul{
+    list-style: none;
+
+}
+.venta div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/*--main productos shampoo y acondicionador--*/
+.venta__shaacon{
+    background-color: #3c626bc0;
+    margin: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid grey;
+    text-align: center;
+    width: 60%;
+    height: 350px;
+    box-shadow: 11px 12px 28px -3px rgba(0,0,0,0.51);
+-webkit-box-shadow: 11px 12px 28px -3px rgba(0,0,0,0.51);
+-moz-box-shadow: 11px 12px 28px -3px rgba(0,0,0,0.51);
+
+}
+.imgsh{
+    width: 300px;
+    height: 300px;
+
+}
+
+/*--main productos mascaras--*/
+.venta__masc{
+    background-color: #3c626bc0;
+    margin: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid grey;
+    text-align: center;
+    width: 60%;
+    height: 350px;
+    box-shadow: 11px 12px 28px -3px rgba(0,0,0,0.51);
+-webkit-box-shadow: 11px 12px 28px -3px rgba(0,0,0,0.51);
+-moz-box-shadow: 11px 12px 28px -3px rgba(0,0,0,0.51);
+
+}
+
+.imgmasc{
+    width: 300px;
+    height: 300px;
+    
+}
+
+/*--main productos tratamentos--*/
+.venta__trat{
+    background-color: #3c626bc0;
+    margin: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid grey;
+    text-align: center;
+    width: 60%;
+    height: 350px;
+    box-shadow: 11px 12px 28px -3px rgba(0,0,0,0.51);
+-webkit-box-shadow: 11px 12px 28px -3px rgba(0,0,0,0.51);
+-moz-box-shadow: 11px 12px 28px -3px rgba(0,0,0,0.51);
+
+}
+.imgtratam{
+    width: 300px;
+    height: 300px;
+
+}
+
+/*-----MAIN pagina:TENDENCIAS-----*/
+
+/*--aplico propiedades generales--*/
+
+.tendencias {
+    text-align: center;
+    
+   }
+
+   .tendencias__titulo{
+    font-size: 50px;
+   }
+   .tendencias__texto{
+   text-align: center;
+   font-style: italic;
+   }
+
+   /*--main tendencias opciones--*/
+   .ideas {
+    font-size: 20px;
+    background-size: cover;
+    margin-top: 30px;
+    
+}
+
+.ideas section img{
+    width: 300px;
+    height: 400px;
+    margin: 50px;
+    border: 1px solid gray;
+    box-shadow: 11px 12px 28px -3px rgba(0,0,0,0.51);
+    -webkit-box-shadow: 11px 12px 28px -3px rgba(0,0,0,0.51);
+    -moz-box-shadow: 11px 12px 28px -3px rgba(0,0,0,0.51);
+    
+
+}
+
+
+
+/*-----FOOTER-----*/
+/*--aplico propiedades generales--*/
+.pie{
+    
+    background-color:#dcbb9ab9 ;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center
+    
+}
+
+
+/*--"contactanos"--*/
+.infocontacto h3{
+    margin-top: 70px;
+    margin-left: 30px;
+    font-size: 30px;
+}
+
+/*--logo pie--*/
+.logotransparente{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+/*--redes sociales--*/
+.face{
+    width: 50px;
+    height: 50px;
+}
+.insta{
+    width: 50px;
+    height: 50px;
+}
+.what{
+    width: 50px;
+    height: 50px;
+}
+
+
+/*--mapa google--*/
+.mapa {
+    width: 100%;
+    height: 100%;
+}
+
+
+/*MEDIA QUERIE*/
+
+@media screen and (max-width:1166){
+    .venta div{
+        flex-direction: column;
+        align-items: center;
+
+        /*
+        height: 50%;
+        */
+    }
+
+}
+    
+@media screen and (max-width:1034px){
+
+    .propuesta{
+        width: 100%;
+        justify-items: center;
+        grid-template-columns: 1fr;
+        grid-auto-rows: 1;
+    
+    }
+    
+    .propuesta__servicios__general{
+        margin: 30px;
+        padding: 30px;
+    
+     }
+    
+    .propuesta div img{
+        width: 400px;
+        height: 250px;
+        padding: 20px;
+        margin: 30px;
+
+    }
+}
+
+@media screen and (max-width:956px){
+    .imagen__lugar{
+        width: 80%;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-content: center;
+        margin-left: 90px;
+        grid-template-columns:1fr;
+        grid-auto-rows: 200px;
+    }  
+    .nosotros{
+        padding: 10px;
+    }
+    .nosotros__titulo{
+        font-size: 30px;
+    }
+        
+    
+    .imagen__1{
+        grid-column: span 1;
+    }
+    
+    .imagen__4{
+        grid-column: 1/2;
+    }
+    
+    .imagen__5{
+        grid-column: span 1;
+    }
+    
+
+
+@media screen and (max-width:888px) {
+    header{
+        flex-direction: column;
+        align-items: center;
+        height: 50%;
+    }
+    .nosotros{
+        font-size: 80%;
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    /*--logo pie--*/
+    .logotransparente{
+        width: 100px;
+        height: 100px;
+        margin: 5px;
+    }
+    /*--redes sociales--*/
+    .face{
+        width: 30px;
+        height: 30px;
+    }
+    .insta{
+        width: 30px;
+        height: 30px;
+    }
+    .what{
+        width: 30px;
+        height: 30px;
+    }
+    /*--mapa google--*/
+    .mapa {
+        width: 70%;
+        height: 70%;
+    }
+ 
+        
+
+    }
+}
+
+
+@media screen and (max-width:854px) {
+    .imagen__lugar{
+        margin-left: 80px;
+}
+}
+
+@media screen and (max-width:720px){
+    .hero{
+        height: 50%;
+
+    }
+    .hero__nombre{
+        font-size: 100px;
+
+    }
+    .hero__salon{
+        font-size: 40px;
+
+    }
+
+    .lugar img{
+        width: 500px;
+        height: 250px;
+        margin-top: 20px;
+    
+
+    }
+    .venta{
+        width: 100%;
+        justify-items: center;
+        grid-template-columns: 1fr;
+        grid-auto-rows: 1;
+        
+        }
+        
+    .venta div{
+        justify-items: center;
+        align-content: center;
+        grid-template-columns: 1fr;
+        grid-auto-rows: 1;
+        row-gap: 200px;
+        grid-template-columns: 1fr;
+        grid-auto-rows: 1;
+
+
+        }
+
+}
+
+@media screen and (max-width:714px){
+    header{
+        height: 110%;
+    }
+    header nav ul{
+        flex-direction: column;
+        text-align: center;
+
+    }
+
+    header nav ul li a{
+        padding: 2px;
+        margin: 3px;
+        align-items: center;
+    }
+
+    .nosotros{
+        font-size: 70%;
+    }
+    
+    .hero__nombre{
+        font-size: 80px;
+    }
+    .hero__salon{
+        font-size: 30px;
+    }
+    
+}
+
+@media screen and (max-width:692px){
+    .imagen__lugar{
+        margin-left: 70px;
+    }
+
+}
+
+@media screen and (max-width:568px){
+    .imagen__lugar{
+        margin-left: 60px;
+    }
+
+}
+
+@media screen and (max-width:524px){
+    .lugar img{
+        width: 400px;
+        height: 180px;
+        margin-top: 20px;
+    
+    }
+
+}
+
+@media screen and (mas-width:480px){
+    .imagen__lugar{
+        margin-left: 20px;
+    }
+}
