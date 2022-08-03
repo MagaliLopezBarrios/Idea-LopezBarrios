@@ -36,7 +36,14 @@ header img{
     width: 180px;
     height: 180px;
     box-sizing: border-box;
+    transition: transform 1s ease 1s;
 }
+
+header img:hover{
+    transform: scale(1.3);
+}
+
+
 /*--lista nav--*/
 header nav ul li a{
     text-decoration: none;
@@ -106,7 +113,41 @@ main{
     font-size: 120px;
     
 }
+.hero__nombre:hover{
+    animation: nombre 1s;
+}
+ /*---aplico transicion al nombre--*/
 
+    
+ @keyframes nombre{
+    0%{
+        background-color:#dcbb9a75 ;
+        font-size: 125px;
+
+    }
+    25%{
+        background-color:#dcbb9a96 ;
+        font-size: 130px;
+    }
+    50%{        
+        background-color:#dcbb9abd ;
+        font-size: 135px;
+
+
+    }
+    75%{
+        background-color:#dcbb9abd ;
+        font-size: 140px;
+
+
+    }
+    100%{
+        background-color:#dcbb9ad2 ;
+        font-size: 145px;
+
+
+    }
+ }
 
 .hero__salon {
     font-family: 'Montserrat', sans-serif;
@@ -149,6 +190,8 @@ main{
     -moz-box-shadow: 11px 12px 28px -3px rgba(0,0,0,0.51);
     width: 30%;
     height: 20vh;
+    transition: transform 2s ease 1s;
+
 
 
  }
@@ -160,6 +203,11 @@ main{
     text-align: center;
     text-decoration: none;
  }
+
+ .propuesta__servicios__general:hover{
+    transform: scale(1.2);
+ }
+
 .propuesta div img{
     width: 500px;
     height: 350px;
@@ -173,9 +221,10 @@ main{
     -moz-box-shadow: 11px 12px 28px -3px rgba(0,0,0,0.51);
     align-content: center;
 
-
-
 }
+
+
+
 
 /*-----MAIN index productos-----*/
 
@@ -191,9 +240,16 @@ main{
     -moz-box-shadow: 11px 12px 28px -3px rgba(0,0,0,0.51);
     width: 30%;
     height: 20vh;
+    transition: transform 2s ease 1s;
+
 
 
 }
+
+.propuesta__productos__general:hover{
+    transform: scale(1.2);
+ }
+
 .propuesta__producto__lista{
     list-style: none;
     color: black;
@@ -305,6 +361,13 @@ font-style: italic;
 
 }
 
+.experiencia__pregunta{
+    transition: transform 1s ease 1s;
+}
+
+.experiencia__pregunta:hover{
+    transform: translateY(15px);
+}
 /*-----MAIN pagina:SERVICIOS-----*/
 
 /*--aplico propiedades generales--*/
@@ -332,13 +395,16 @@ font-style: italic;
 
     font-size: 15px;
     background-size: cover;
+    transition: transform 2s ease 1s;
     
 
     /*grillas*/
     
 }
     
-
+.trabajo:hover{
+    transform: rotateZ(360deg);
+}
 .trabajo div{
     width: 100%;
     height: 70%;
@@ -526,11 +592,13 @@ font-style: italic;
     box-shadow: 11px 12px 28px -3px rgba(0,0,0,0.51);
     -webkit-box-shadow: 11px 12px 28px -3px rgba(0,0,0,0.51);
     -moz-box-shadow: 11px 12px 28px -3px rgba(0,0,0,0.51);
-    
+    transition: transforms 4s;
 
 }
 
-
+.ideas section img:hover{
+    transform: scale(1.2);
+}
 
 /*-----FOOTER-----*/
 /*--aplico propiedades generales--*/
@@ -552,6 +620,14 @@ font-style: italic;
     font-size: 30px;
 }
 
+.pie div h3:hover{
+    transform: translateX(470px);
+}
+
+.pie div h3{
+    transition: transform 4s ease 1s;
+
+}
 /*--logo pie--*/
 .logotransparente{
     width: 200px;
