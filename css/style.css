@@ -365,10 +365,10 @@ font-style: italic;
     margin-left: 15px;
 }
 .conteiner{
-    margin: 25px;
+    margin: 5px;
     border: solid 1px grey;
-    width: 300px;
-    padding: 30px;
+    width: 70%;
+    padding: 20px;
     font-weight: 600;
     background-color: #3c626bc0;
 
@@ -581,6 +581,50 @@ font-style: italic;
     padding-top: 30px;
 
 }
+/*----Formulario consulta de productos-----*/
+.consulta__pruducto{
+    font-size: 25px;
+    background-size: cover;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    border-width: 2px;
+    padding: 20px;
+
+
+}
+
+.form_prod{
+    background-size: cover;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    border-width: 2px;
+    padding: 20px;
+
+}
+.indicacion{
+    font-size: 23px;
+    background-size: cover;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    border-width: 2px;
+    
+
+
+}
+.conteiner2{
+    margin: 5px;
+    border: solid 1px grey;
+    width: 40%;
+    padding: 20px;
+    font-weight: 600;
+    background-color: #3c626bc0;
+
+}
+
+
 
 /*-----MAIN pagina:TENDENCIAS-----*/
 
