@@ -57,22 +57,26 @@
         <div class="experiencia">
             <h3 class="experiencia__pregunta">¿Queres compartir tu experiencia en "Laura Portas"?</h3>
             
-            <form action="datos" class="experiencia__tabla">
-                <div>
-                    <label for="nombre">Nombre</label>
-                    <input type="text" name="Nombre">
-    
-                </div>
-                    <label for="apellido">Apellido</label>
-                    <input type="text" name="Apellido">
-                <div>
-                    <label for="comentario">Comentario</label>
-                    <input type="text" name="Comentario">
-                </div>
+            <div class="conteiner">
+                
+                <form class="row g-3">
+
+                    <div class= col-6>
+                        <label for="nombreInput" class= form-label>Nombre</label>
+                        <input type="text" class= "form-control" id="nombreInput" placeholder="Escribe tu nombre">
+                    </div>
+                    <div class= col-6>
+                        <label for="apellidoInput" class= form-label>Apellido</label>
+                        <input type="text" class= "form-control" id="apellidoInput" placeholder="Escribe tu apellido">                    
+                    </div>
+                    <div class= col-12>
+                        <label for="comentarioInput" class= form-label>Comentario</label>
+                        <input type="text" class= "form-control" placeholder="Deja tu comentario aqui" id="comentarioInput" placeholder="Escribe tu apellido">                    
+                    </div>
+                </form>
+
         
-        
-            </form>
-        </div>    
+            </div>    
     
         </main>
         <footer>

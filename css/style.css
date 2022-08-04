@@ -364,11 +364,11 @@ font-style: italic;
     margin-top: 50px;
     margin-left: 15px;
 }
-.experiencia__tabla{
+.conteiner{
     margin: 25px;
     border: solid 1px grey;
     width: 300px;
-    padding: 15px;
+    padding: 30px;
     font-weight: 600;
     background-color: #3c626bc0;
 
@@ -399,7 +399,9 @@ font-style: italic;
 
 .trabajo {
     width: 100%;
+    height: 100%;
     margin-top: 50px;
+    padding: 20px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
@@ -420,7 +422,7 @@ font-style: italic;
 }
 .trabajo div{
     width: 100%;
-    height: 70%;
+    height: 75%;
     object-fit: cover;
     box-shadow: 11px 12px 28px -3px rgba(0,0,0,0.51);
     -webkit-box-shadow: 11px 12px 28px -3px rgba(0,0,0,0.51);
@@ -466,7 +468,7 @@ font-style: italic;
 
 .productos {
     text-align: center;
-    height: 400px;
+    height: 200px;
     margin-top: 30px;
 
    }
@@ -482,20 +484,26 @@ font-style: italic;
    font-style: italic;
    }
 
-   .venta {
+   .venta{
+    height: 500px;
     font-size: 15px;
     background-size: cover;
     margin-top: 0px;
-    margin-bottom: 30pxpx;
+    margin-bottom: 30px;
     margin-left: 20px;
     border-width: 2px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     /*grid*/
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-auto-rows: 350px;
     gap: 20px;
+    /*
     justify-content: center;
-    align-items: flex-end;
+    align-items: flex-end;*/
 
 }
 .venta div ul{
@@ -504,7 +512,7 @@ font-style: italic;
 }
 .venta div img{
     width: 100%;
-    height: 100%;
+    height: 90%;
     object-fit: cover;
 }
 
@@ -517,7 +525,7 @@ font-style: italic;
     border: 1px solid grey;
     text-align: center;
     width: 60%;
-    height: 350px;
+    height: 450px;
     box-shadow: 11px 12px 28px -3px rgba(0,0,0,0.51);
 -webkit-box-shadow: 11px 12px 28px -3px rgba(0,0,0,0.51);
 -moz-box-shadow: 11px 12px 28px -3px rgba(0,0,0,0.51);
@@ -525,7 +533,7 @@ font-style: italic;
 }
 .imgsh{
     width: 300px;
-    height: 300px;
+    height: 200px;
 
 }
 
@@ -538,7 +546,7 @@ font-style: italic;
     border: 1px solid grey;
     text-align: center;
     width: 60%;
-    height: 350px;
+    height: 450px;
     box-shadow: 11px 12px 28px -3px rgba(0,0,0,0.51);
 -webkit-box-shadow: 11px 12px 28px -3px rgba(0,0,0,0.51);
 -moz-box-shadow: 11px 12px 28px -3px rgba(0,0,0,0.51);
@@ -548,6 +556,7 @@ font-style: italic;
 .imgmasc{
     width: 300px;
     height: 300px;
+    padding-top: 20px;
     
 }
 
@@ -560,7 +569,7 @@ font-style: italic;
     border: 1px solid grey;
     text-align: center;
     width: 60%;
-    height: 350px;
+    height: 450px;
     box-shadow: 11px 12px 28px -3px rgba(0,0,0,0.51);
 -webkit-box-shadow: 11px 12px 28px -3px rgba(0,0,0,0.51);
 -moz-box-shadow: 11px 12px 28px -3px rgba(0,0,0,0.51);
@@ -569,6 +578,7 @@ font-style: italic;
 .imgtratam{
     width: 300px;
     height: 300px;
+    padding-top: 30px;
 
 }
 
