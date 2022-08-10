@@ -90,7 +90,6 @@ header .bg-linavbarght{
 main{
     width: 100%;
     height: 100%
-    
     background-color: #cfe7da;
     font-family: 'Montserrat', sans-serif;
     border-top: solid rgba(139, 69, 19, 0.541);
@@ -118,52 +117,20 @@ main{
     color: black;
     text-align: center;
     font-size: 120px;
-    padding: 20px;
+    padding-top: 70px;
     
 }
-.hero__nombre:hover{
-    animation: nombre 1s;
-}
- /*---aplico transicion al nombre--*/
 
-    
- @keyframes nombre{
-    0%{
-        background-color:#dcbb9a75 ;
-        font-size: 125px;
-
-    }
-    25%{
-        background-color:#dcbb9a96 ;
-        font-size: 130px;
-    }
-    50%{        
-        background-color:#dcbb9abd ;
-        font-size: 135px;
-
-
-    }
-    75%{
-        background-color:#dcbb9abd ;
-        font-size: 140px;
-
-
-    }
-    100%{
-        background-color:#dcbb9ad2 ;
-        font-size: 145px;
-
-
-    }
- }
-
-.hero__salon {
+.hero__salon{
     font-family: 'Montserrat', sans-serif;
     color: black;
     text-align: center;
     font-size: 50px;
-    font-weight: 100;
-    
+    /*font-weight: 100;*/
+    margin-left: 510px;
+    border: 1px solid black;
+    width: 25%;
+    background-color: rgba(0, 0, 0, 0.219);
 }
 
 /*-----MAIN index servicio-----*/
@@ -751,7 +718,7 @@ font-style: italic;
         margin: 30px;
         padding: 30px;
     
-     }
+    }
     
     .propuesta div img{
         width: 400px;
@@ -798,7 +765,7 @@ font-style: italic;
     header{
         flex-direction: column;
         align-items: center;
-        height: 50%;
+        height: 70%;
     }
     .nosotros{
         font-size: 80%;
@@ -806,6 +773,13 @@ font-style: italic;
         margin-left: 20px;
         margin-right: 20px;
     }
+
+    .propuesta__servicios__general{
+        margin: 30px;
+        padding: 0px;
+    
+    }
+
     /*--logo pie--*/
     .logotransparente{
         width: 100px;
