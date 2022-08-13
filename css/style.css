@@ -107,8 +107,8 @@ main{
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-
-    
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
 
 }
 
@@ -124,14 +124,30 @@ main{
 .hero__salon{
     font-family: 'Montserrat', sans-serif;
     color: black;
-    text-align: center;
     font-size: 50px;
-    /*font-weight: 100;*/
+    /*font-weight: 100;
     margin-left: 510px;
     border: 1px solid black;
-    width: 25%;
+    width: 25%;*/
+    border: 1px solid rgba(0, 0, 0, 0.315);
+
     background-color: rgba(0, 0, 0, 0.219);
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    width: fit-content;
+    padding: 0;
 }
+
+.hero__salon{
+    grid-column: 2/3;
+
+}
+.hero__nombre{
+    grid-column: 2/3;
+
+}
+
 
 /*-----MAIN index servicio-----*/
 .propuesta{
