@@ -108,7 +108,8 @@ main{
     background-repeat: no-repeat;
     background-attachment: fixed;
     display: grid;
-    grid-template-columns: 25% 50% 25%;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
 
 }
 
@@ -118,6 +119,7 @@ main{
     text-align: center;
     font-size: 120px;
     padding-top: 70px;
+    margin-bottom: 0;
     
 }
 
@@ -125,26 +127,23 @@ main{
     font-family: 'Montserrat', sans-serif;
     color: black;
     font-size: 50px;
-    /*font-weight: 100;
-    margin-left: 510px;
-    border: 1px solid black;
-    width: 25%;*/
-    border: 1px solid rgba(0, 0, 0, 0.315);
-
-    background-color: rgba(0, 0, 0, 0.219);
+    /*border: 1px solid rgba(0, 0, 0, 0.315);
+    background-color: rgba(0, 0, 0, 0.219);*/
     display: flex;
-    justify-items: center;
-    align-items: center;
-    width: fit-content;
-    padding: 0;
+    align-items: flex-start;
+    text-align: center;
+    margin-left: 200px;
+    margin-top: 0;
+}
+
+.hero__nombre{
+    grid-column: 2/3;
+    grid-row: 1/2;
 }
 
 .hero__salon{
     grid-column: 2/3;
-
-}
-.hero__nombre{
-    grid-column: 2/3;
+    grid-row: 2/3;
 
 }
 
@@ -364,6 +363,16 @@ font-style: italic;
 .experiencia__pregunta:hover{
     transform: translateY(15px);
 }
+
+.experiencia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(222, 184, 135, 0.507);
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
 /*-----MAIN pagina:SERVICIOS-----*/
 
 /*--aplico propiedades generales--*/
@@ -396,13 +405,55 @@ font-style: italic;
     transition: transform 2s ease 1s;
     
 
-    /*grillas*/
     
 }
-    
-.trabajo:hover{
-    transform: rotateZ(360deg);
+   .trabajo__lavado{
+    transition: transform 4s;
+
+   } 
+.trabajo__lavado:hover{
+    transform: scale(1.2);
 }
+
+.trabajo__corte{
+    transition: transform 4s;
+
+   } 
+
+.trabajo__corte:hover{
+    transform: scale(1.2);
+
+}
+.trabajo__peinado{
+    transition: transform 4s;
+
+   } 
+
+.trabajo__peinado:hover{
+    transform: scale(1.2);
+    
+}
+
+.trabajo__coloracion{
+    transition: transform 4s;
+
+   } 
+
+.trabajo__coloracion:hover{
+    transform: scale(1.2);
+
+}
+
+.trabajo__tratamientos{
+    transition: transform 4s;
+
+   } 
+
+.trabajo__tratamientos:hover{
+    transform: scale(1.2);
+
+}
+
 .trabajo div{
     width: 100%;
     height: 75%;
@@ -491,6 +542,8 @@ font-style: italic;
 }
 .venta div ul{
     list-style: none;
+    text-align: center;
+    padding: 0;
 
 }
 .venta div img{
@@ -538,8 +591,8 @@ font-style: italic;
 
 .imgmasc{
     width: 300px;
-    height: 300px;
-    padding-top: 20px;
+    height: 450px;
+    padding-top: 30px;
     
 }
 
@@ -560,7 +613,7 @@ font-style: italic;
 }
 .imgtratam{
     width: 300px;
-    height: 300px;
+    height: 90vh;
     padding-top: 30px;
 
 }
@@ -581,10 +634,11 @@ font-style: italic;
     background-size: cover;
     margin-top: 0px;
     margin-bottom: 30px;
-    margin-left: 20px;
+    /*margin-left: 20px;*/
     border-width: 2px;
     padding: 20px;
-
+    text-align: center;
+    
 }
 .indicacion{
     font-size: 23px;
@@ -601,10 +655,11 @@ font-style: italic;
     margin: 5px;
     border: solid 1px grey;
     width: 40%;
-    padding: 20px;
+    padding: 15px;
+    padding-left: 40px;
     font-weight: 600;
     background-color: #3c626bc0;
-
+    margin-left: 370px;
 }
 
 
@@ -708,15 +763,61 @@ font-style: italic;
 
 /*MEDIA QUERIE*/
 
+@media screen and (max-width:1281){
+    .hero__salon{
+        text-align: center;
+    }
+    
+}
+
+@media screen and (max-width:1183){
+    .hero__salon{
+        text-align: center;
+    }
+    
+}
+
+@media screen and (max-width:1171){
+    .hero__nombre{
+        font-size: 50px;
+        display: flex;
+        align-items: center;
+
+}
+
+    .hero{
+        display: grid;
+        grid-template-columns: 1fr 3fr 1fr;
+
+    }
+
+    .hero__salon{
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+}
+    .propuesta__servicios__general{
+        margin: 30px;
+        padding: 30px;
+        
+
+}
+
+
+
+}
+
 @media screen and (max-width:1166){
     .venta div{
         flex-direction: column;
         align-items: center;
 
-        /*
-        height: 50%;
-        */
     }
+    .conteiner2{
+        margin-left: 0;
+    }
+    
 
 }
     
